@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="saklar.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    
+      <div class="container">
+        <div class="sidebar">
+          <nav>
+            <h1>PORTFOLIO</h1>
+            <img src="foto.jpeg" alt="foto" />
+            <ul>
+              <li><a class="a-nav" href="#">Home</a></li>
+              <li><a class="a-nav" href="#about">About</a></li>
+              <li><a class="a-nav" href="#about">Project</a></li>
+              <li><a class="a-nav" href="#contact">Contact</a></li>
+            </ul>
+            <div class="logo">
+              <a href="www.linkedin.com/in/tegar-karangga-abdillah"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/tegarkrgab/"><i class="fa fa-instagram"></i></a>
+              <a href="https://wa.me/62895348962541"><i class="fa fa-whatsapp"></i></a>
+              <a href=""><i class="fa fa-pinterest-p"></i></a>
+              <a href=""><i class="fa fa-twitter"></i></a>
+            </div>
+          </nav>
+        </div>
+        <div class="isi">
+          <div class="home" id="#">
+            <h1>My Portfolio</h1>
+            <hr />
+            <p class="text">
+              Saya adalah seorang mahasiswa yang antusias dan berdedikasi di Universitas Teknokrat Indonesia. Saya
+              memiliki komitmen yang kuat untuk berpartisipasi dalam program MSIB guna membangun keterampilan dan
+              pengalaman saya di bidang teknologi informasi. Tujuan utama saya adalah untuk menjadi seorang programmer
+              yang sukses di masa depan
+            </p>
+          </div>
+          <div class="about" id="about">
+            <h1>About Me</h1>
+            <hr />
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Architecto autem aliquam reprehenderit aspernatur facere cumque
+              deleniti dignissimos aliquid blanditiis unde culpa cum enim
+              ducimus fugit a, laboriosam doloribus ipsa! Esse! Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. In adipisci corrupti,
+              officia natus nesciunt modi repellendus iusto voluptates eius.
+              Reiciendis recusandae soluta amet corrupti et libero esse
+              aspernatur odit aperiam. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Quisquam quidem blanditiis dicta et sequi, sed
+              autem molestiae sunt magni facilis rerum recusandae,
+              reprehenderit, fugit magnam in debitis doloremque. Nam, sint?
+            </p>
+          </div>
+
+          <div id="project">
+            <h1>Mini project</h1>
+            <hr />
+            <h3>Matiin Idupin Lampu</h3>
+            <div class="miniproject">
+              <div class="lampu1">
+                <img src="off.gif" id="gambar" alt="">
+                <button type="button" onclick="saklar(0)">mati</button>
+                <button type="button" onclick="saklar(1)">idup</button>
+              </div>
+              <div class="lampu2">
+                <img src="off.gif" id="gambar1" alt="">
+                <button type="button" onclick="saklar('b')">mati</button>
+                <button type="button" onclick="saklar('a')">idup</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <hr />
+            <p><i class="fa fa-map-marker"></i> Lampung, Bandar Lampung</p>
+            <p><i class="fa fa-phone"></i> Phone: +62 895348962541</p>
+            <p>
+              <i class="fa fa-envelope"> </i> Email:
+              tegar_karangga_a@teknokrat.ac.id
+            </p>
+            <form action="" target="_blank">
+              <table>
+                <tr>
+                  <td>
+                    <label for=""><p>Name</p></label>
+                  </td>
+                  <td class="form-td">: <input type="text" placeholder="Name"/></td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for=""><p>Email</p></label>
+                  </td>
+                  <td class="form-td">: <input type="text" placeholder="Email"/></td>
+                </tr>
+                <tr>
+                  <td class="">
+                    <label for=""><p>Subject</p></label>
+                  </td>
+                  <td class="form-td">: <input type="text" placeholder="Subject"/></td>
+                </tr>
+                <tr>
+                  <td class="">
+                    <label for=""><p>Message</p></label>
+                  </td>
+                  <td class="form-td">: <input type="text" placeholder="Message"/></td>
+                </tr>
+                <tr>
+                  <td class="" colspan="2">
+                    <button type="submit">
+                      <i class="fa fa-paper-plane"> SEND MESSAGE</i> 
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <div class="footer1">
+          <div class="">
+            <h1>Powered by Tegar</h1>
+          </div>
+          <div class="logo1">
+            <a href="www.linkedin.com/in/tegar-karangga-abdillah"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/tegarkrgab/"><i class="fa fa-instagram"></i></a>
+            <a href="https://wa.me/62895348962541"><i class="fa fa-whatsapp"></i></a>
+            <a href=""><i class="fa fa-pinterest-p"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+    
+  </body>
+</html>
