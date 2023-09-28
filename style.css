@@ -83,7 +83,7 @@ hr{
 } */
 
 .sidebar{
-    padding: 10px; 
+    padding: 0px 0px 0px 10px; 
     justify-items: center;
 }
 
@@ -220,7 +220,7 @@ a:hover{
         width: 100%;
         box-sizing: border-box;
         border: 1px solid white;
-        margin: 10px;
+        margin: 10px 10px 0px 10px;
         padding: 0px;
         
     }
