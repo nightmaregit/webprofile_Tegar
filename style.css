@@ -72,7 +72,7 @@ hr{
     flex-flow: row ;
     justify-items: center;
     height: auto;
-    gap: 10px;
+    
 }
 
 /* .container{
@@ -83,8 +83,10 @@ hr{
 } */
 
 .sidebar{
-    padding: 0px 0px 0px 10px; 
+    margin: 10px 0px 10px 10px; 
     justify-items: center;
+    padding: 10px;
+    
 }
 
 nav{
@@ -158,8 +160,8 @@ a:hover{
 .isi{
     display: flex;
     flex-direction: column;
+    margin: 10px 10px 10px 10px;
     gap: 10px;
-    padding: 10px;
 }
 
 .home{
@@ -221,8 +223,6 @@ a:hover{
         box-sizing: border-box;
         border: 1px solid white;
         margin: 10px 10px 0px 10px;
-        padding: 0px;
-        
     }
 
 
